@@ -20,7 +20,8 @@ bot.on('message', function(data) {
             word === "cool" ||
             word === "amazing" ||
             word === "brilliant" ||
-            word === "bam")
+            word === "bam" ||
+            word === "lovely")
         .length
         if (dataPositive > 0){
             bot.postMessageToChannel('general', ':mitch-1:', params);
